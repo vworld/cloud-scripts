@@ -76,9 +76,6 @@ migrate_dir "$HOME/.cache" "$CACHE_DIR"
 echo "=== Migrating ~/.local/share ==="
 migrate_dir "$HOME/.local/share" "$LOCAL_SHARE_DIR"
 
-echo "=== Migrating /tmp ==="
-migrate_dir "/tmp" "$TMP_DIR"
-
 
 echo "=== Configuring persistent environment variables ==="
 
